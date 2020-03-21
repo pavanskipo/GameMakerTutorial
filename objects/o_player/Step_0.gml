@@ -6,12 +6,13 @@ key_right = keyboard_check(vk_right)
 key_jump = keyboard_check_pressed(vk_space)
 
 var move = key_right - key_left
+var on_ground = place_meeting(x, y+1, o_wall)
 
 hsp = move * walksp
 vsp = vsp + grv
 
 // Jump Section
-if (place_meeting(x, y+1, o_wall) and key_jump) {
+if (on_ground and key_jump) {
 	vsp = -7;
 }
 
@@ -35,7 +36,27 @@ y = y + vsp
 
 
 
+// Animation
+if (!on_ground) {
+	sprite_index = s_player_j;
+	image_speed = 0;
+	if (sign(vsp) > 0) {
+		image_index = 1;
+	} else {
+		image_index = 0;
+	}
+} else {
+	image_speed = 1;
+	if (hsp == 0) {
+		sprite_index = s_player	
+	} else {
+		sprite_index = s_player_r
+	}
+}
 
+if (hsp != 0) {
+	image_xscale = sign(hsp)
+}
 
 
 
