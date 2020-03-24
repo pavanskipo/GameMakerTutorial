@@ -119,6 +119,22 @@
             }
         },
         {
+            "Key": "47a4d037-0948-4848-825c-324a57da07a5",
+            "Value": {
+                "id": "3b03290f-82ed-4b73-8489-1de48ceb4701",
+                "resourcePath": "sprites\\tiles\\tiles.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "53dfedc8-cd81-4649-bffe-4c4e4e05175e",
+            "Value": {
+                "id": "46deaa70-74e4-440a-ad5a-a2e999c8f8f8",
+                "resourcePath": "objects\\o_camera\\o_camera.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "62cc9e9b-0c32-4b77-90f5-d3d409201f25",
             "Value": {
                 "id": "d1bba485-8895-4b2d-b138-39f5c3e252e5",
@@ -244,6 +260,14 @@
                 "id": "b12fa4c8-8225-4258-9b88-5fe7fcdc75ae",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "d15b8b65-f619-450f-81f2-2845a9688f87",
+            "Value": {
+                "id": "b561a365-83cf-4c6d-aa2d-627d1f7629a8",
+                "resourcePath": "tilesets\\t_tileset\\t_tileset.yy",
+                "resourceType": "GMTileSet"
             }
         },
         {
